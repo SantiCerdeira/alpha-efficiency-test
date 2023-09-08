@@ -1,0 +1,7 @@
+Terminar mujer en circulo
+Hacer que el contador funcione
+Hacer que las faq sean desplegables
+Menu hamburguesa
+Responsiveness
+UX, hover y focus, accesibility, alts
+Eliminar comentarios

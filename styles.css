@@ -329,7 +329,7 @@ h1 {
   height: fit-content;
   flex-shrink: 0;
   background: #73c3f4;
-  padding: 10rem;
+  padding: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -366,13 +366,28 @@ h1 {
   line-height: 160%; /* 1.6rem */
 }
 
+.blue-image {
+    padding-top: 10rem;
+}
+
 .image-circle {
   width: 25.25rem;
   height: 25.25rem;
   flex-shrink: 0;
   border-radius: 25.25rem;
-  border: 28px solid #f9f9fc;
-  position: relative;
+  border: 28px solid #F9F9FC;
+  position: relative; 
+} 
+
+.shadow {
+    width: 16.5rem;
+    height: 8.0625rem;
+    flex-shrink: 0;
+    fill: rgba(48, 48, 48, 0.15);
+    mix-blend-mode: multiply;
+    filter: blur(17.5px);
+    position: absolute;
+    top: 0;
 }
 
 .blue-small-circle {
@@ -382,8 +397,9 @@ flex-shrink: 0;
 stroke-width: 28px;
 stroke: #FFF;
 position: absolute;
-top: -25%;
-right: -25%;
+top: -30%;
+right: -20%;
+
 }
 
 .image-circle img {
@@ -417,7 +433,7 @@ right: -25%;
   opacity: 0.15;
   position: absolute;
   top: 15%;
-  right: -10%;
+  right: -15%;
 }
 
 /* HELP SECTION */

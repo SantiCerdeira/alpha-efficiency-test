@@ -20,8 +20,7 @@
     <main>
       <div class="hero">
         <div class="hero-left-circle"></div>
-        <div class="container">
-          <nav>
+        <nav>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="138"
@@ -214,54 +213,64 @@
                 fill="white"
               />
             </svg>
-            <ul>
-              <li><a href="index.php">About Us</a></li>
-              <li><a href="#">Book Online</a></li>
-              <li><a href="#">Weight Loss Programs</a></li>
-              <li><a href="#">Real Patient Stories</a></li>
-              <li><a href="#">Locations</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Shop</a></li>
-              <li><a href="#">Subscription</a></li>
-            </ul>
+            <div>
+                <div class="menu-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" viewBox="0 0 25 18" fill="none" id="menu-toggle">
+                        <path d="M24.0234 7.8125H0.976562C0.437207 7.8125 0 8.24971 0 8.78906C0 9.32842 0.437207 9.76562 0.976562 9.76562H24.0234C24.5628 9.76562 25 9.32842 25 8.78906C25 8.24971 24.5628 7.8125 24.0234 7.8125Z" fill="#DD71C6"/>
+                        <path d="M24.0234 0H0.976562C0.437207 0 0 0.437207 0 0.976562C0 1.51592 0.437207 1.95312 0.976562 1.95312H24.0234C24.5628 1.95312 25 1.51592 25 0.976562C25 0.437207 24.5628 0 24.0234 0Z" fill="#DD71C6"/>
+                        <path d="M24.0234 15.625H0.976562C0.437207 15.625 0 16.0622 0 16.6016C0 17.1409 0.437207 17.5781 0.976562 17.5781H24.0234C24.5628 17.5781 25 17.1409 25 16.6016C25 16.0622 24.5628 15.625 24.0234 15.625Z" fill="#DD71C6"/>
+                      </svg>
+                </div>
+                <ul id="navigation">
+                    <li><a href="index.php">About Us</a></li>
+                    <li><a href="#">Book Online</a></li>
+                    <li><a href="#">Weight Loss Programs</a></li>
+                    <li><a href="#">Real Patient Stories</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Subscription</a></li>
+                </ul>
+            </div>
           </nav>
+        <div class="container">
           <div class="intro">
             <div class="text">
               <h1>
                 Chicago’s <span class="pink-span">Free</span> Medical Check-Up
                 and Weight Loss Consultation
               </h1>
-              <p class="intro-text">
-                Limited spots available due to the Physicians schedule and the
-                high demand for service. No credit card or insurance required.
-              </p>
-              <a href="#" class="appointment">Book my appointment</a>
-            </div>
-            <div class="counter">
-              <div class="counter-rectangle">
-                <div class="counter-container">
-                  <h4>Your offer ends in:</h4>
-                  <div class="numbers-container">
-                    <div>
-                      <p class="counter-title">DAYS</p>
-                      <p class="counter-number" id="days">00</p>
-                    </div>
-                    <div>
-                      <p class="counter-title">HOURS</p>
-                      <p class="counter-number" id="hours">16</p>
-                    </div>
-                    <div>
-                      <p class="counter-title">MINUTES</p>
-                      <p class="counter-number" id="minutes">29</p>
-                    </div>
-                    <div>
-                      <p class="counter-title">SECONDS</p>
-                      <p class="counter-number" id="seconds">27</p>
+              <div class="counter">
+                <div class="counter-rectangle">
+                  <div class="counter-container">
+                    <h4>Your offer ends in:</h4>
+                    <div class="numbers-container">
+                      <div>
+                        <p class="counter-title">DAYS</p>
+                        <p class="counter-number" id="days">00</p>
+                      </div>
+                      <div>
+                        <p class="counter-title">HOURS</p>
+                        <p class="counter-number" id="hours">16</p>
+                      </div>
+                      <div>
+                        <p class="counter-title">MINUTES</p>
+                        <p class="counter-number" id="minutes">29</p>
+                      </div>
+                      <div>
+                        <p class="counter-title">SECONDS</p>
+                        <p class="counter-number" id="seconds">27</p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+              <p class="intro-text">
+                There are limited spots due to the Physicians schedule and the high demand for service. No credit card or insurance required.
+              </p>
+              <a href="#" class="appointment">Book my appointment</a>
             </div>
+            
           </div>
         </div>
         <div class="yellow-box">
@@ -1094,5 +1103,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./index.js"></script>
   </body>
 </html>
